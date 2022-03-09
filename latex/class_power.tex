@@ -1,0 +1,140 @@
+\hypertarget{class_power}{}\doxysection{Power Class Reference}
+\label{class_power}\index{Power@{Power}}
+
+
+{\ttfamily \#include $<$power.\+hpp$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_power_a909af60fdce9dbe98b5054f9c4917645}{Power}} ()
+\begin{DoxyCompactList}\small\item\em Constructor for Eponent class. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_power_a0bb6df370100f32b9f2c8c3dc6f1efa0}{valid\+Number}} (int num)
+\begin{DoxyCompactList}\small\item\em Check if number is within the given range. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_power_a6178ecf7f47b7b9235aee9f2681209b8}{reverse\+Number}} (int num)
+\begin{DoxyCompactList}\small\item\em Reverse a given whole number. \end{DoxyCompactList}\item 
+std\+::vector$<$ int $>$ \mbox{\hyperlink{class_power_a142b335d80bb20650a5ac09b0d9e7d09}{split\+Num2\+Vec}} (int num)
+\begin{DoxyCompactList}\small\item\em Convert a given number into vector$<$int$>$ \end{DoxyCompactList}\item 
+std\+::vector$<$ int $>$ \mbox{\hyperlink{class_power_ad1856afbcbb7cbe078aa2bbb42ca0c71}{multiply}} (int x1, std\+::vector$<$ int $>$ x2)
+\begin{DoxyCompactList}\small\item\em Multiply a number with a vector of numbers. \end{DoxyCompactList}\item 
+std\+::vector$<$ int $>$ \mbox{\hyperlink{class_power_a7f8a5bbda4b88286ee8d1e25d43d4a54}{power\+Of}} (int base, int exp)
+\begin{DoxyCompactList}\small\item\em Raise the given base by the given exponent. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_power_a909af60fdce9dbe98b5054f9c4917645}\label{class_power_a909af60fdce9dbe98b5054f9c4917645}} 
+\index{Power@{Power}!Power@{Power}}
+\index{Power@{Power}!Power@{Power}}
+\doxysubsubsection{\texorpdfstring{Power()}{Power()}}
+{\footnotesize\ttfamily Power\+::\+Power (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Constructor for Eponent class. 
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_power_ad1856afbcbb7cbe078aa2bbb42ca0c71}\label{class_power_ad1856afbcbb7cbe078aa2bbb42ca0c71}} 
+\index{Power@{Power}!multiply@{multiply}}
+\index{multiply@{multiply}!Power@{Power}}
+\doxysubsubsection{\texorpdfstring{multiply()}{multiply()}}
+{\footnotesize\ttfamily std\+::vector$<$int$>$ Power\+::multiply (\begin{DoxyParamCaption}\item[{int}]{x1,  }\item[{std\+::vector$<$ int $>$}]{x2 }\end{DoxyParamCaption})}
+
+
+
+Multiply a number with a vector of numbers. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em x1} & -\/ (int) first number to be multiplied \\
+\hline
+{\em x2} & -\/ (vector$<$int$>$) second number to be mulitplied as vector \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+ans -\/ (vector$<$int$>$) product of x1 and x2 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_power_a7f8a5bbda4b88286ee8d1e25d43d4a54}\label{class_power_a7f8a5bbda4b88286ee8d1e25d43d4a54}} 
+\index{Power@{Power}!powerOf@{powerOf}}
+\index{powerOf@{powerOf}!Power@{Power}}
+\doxysubsubsection{\texorpdfstring{powerOf()}{powerOf()}}
+{\footnotesize\ttfamily std\+::vector$<$int$>$ Power\+::power\+Of (\begin{DoxyParamCaption}\item[{int}]{base,  }\item[{int}]{exp }\end{DoxyParamCaption})}
+
+
+
+Raise the given base by the given exponent. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em base} & -\/ (int) base number \\
+\hline
+{\em exp} & -\/ (int) \mbox{\hyperlink{class_power}{Power}} number \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+ans -\/ (vector$<$int$>$) answer 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_power_a6178ecf7f47b7b9235aee9f2681209b8}\label{class_power_a6178ecf7f47b7b9235aee9f2681209b8}} 
+\index{Power@{Power}!reverseNumber@{reverseNumber}}
+\index{reverseNumber@{reverseNumber}!Power@{Power}}
+\doxysubsubsection{\texorpdfstring{reverseNumber()}{reverseNumber()}}
+{\footnotesize\ttfamily int Power\+::reverse\+Number (\begin{DoxyParamCaption}\item[{int}]{num }\end{DoxyParamCaption})}
+
+
+
+Reverse a given whole number. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em num} & -\/ (int) number to be reversed \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+rnum -\/ (int) reveresed number 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_power_a142b335d80bb20650a5ac09b0d9e7d09}\label{class_power_a142b335d80bb20650a5ac09b0d9e7d09}} 
+\index{Power@{Power}!splitNum2Vec@{splitNum2Vec}}
+\index{splitNum2Vec@{splitNum2Vec}!Power@{Power}}
+\doxysubsubsection{\texorpdfstring{splitNum2Vec()}{splitNum2Vec()}}
+{\footnotesize\ttfamily std\+::vector$<$int$>$ Power\+::split\+Num2\+Vec (\begin{DoxyParamCaption}\item[{int}]{num }\end{DoxyParamCaption})}
+
+
+
+Convert a given number into vector$<$int$>$ 
+
+
+\begin{DoxyParams}{Parameters}
+{\em num} & -\/ (int) number to converted \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+vec -\/ (vector$<$int$>$) number in vector form 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_power_a0bb6df370100f32b9f2c8c3dc6f1efa0}\label{class_power_a0bb6df370100f32b9f2c8c3dc6f1efa0}} 
+\index{Power@{Power}!validNumber@{validNumber}}
+\index{validNumber@{validNumber}!Power@{Power}}
+\doxysubsubsection{\texorpdfstring{validNumber()}{validNumber()}}
+{\footnotesize\ttfamily bool Power\+::valid\+Number (\begin{DoxyParamCaption}\item[{int}]{num }\end{DoxyParamCaption})}
+
+
+
+Check if number is within the given range. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em num} & -\/ (int) number to be reversed \\
+\hline
+{\em max} & -\/ (int) max limit of number \\
+\hline
+{\em min} & -\/ (int) min limit of number \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool -\/ (bool) true if number is valid 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+include/\mbox{\hyperlink{power_8hpp}{power.\+hpp}}\end{DoxyCompactItemize}

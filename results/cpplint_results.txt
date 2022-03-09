@@ -1,0 +1,4 @@
+Done processing ./example.cpp
+Done processing ./src/power.cpp
+Done processing ./test/main.cpp
+Done processing ./test/test_power.cpp

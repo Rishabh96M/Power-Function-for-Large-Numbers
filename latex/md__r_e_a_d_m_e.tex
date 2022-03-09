@@ -1,0 +1,46 @@
+\hypertarget{md__r_e_a_d_m_e_autotoc_md582}{}\doxysection{Packages and Dependencies}\label{md__r_e_a_d_m_e_autotoc_md582}
+This project is developed and tested on C++. It uses only standard libraries. For testing, Google\+Test is used.~\newline
+ To maintain consistency in coding and increase readability, the project follows google style sheets.\hypertarget{md__r_e_a_d_m_e_autotoc_md583}{}\doxysection{Overview}\label{md__r_e_a_d_m_e_autotoc_md583}
+Take project has required functions to calculate power of 2 large numbers.\hypertarget{md__r_e_a_d_m_e_autotoc_md584}{}\doxysection{Steps to clone the project}\label{md__r_e_a_d_m_e_autotoc_md584}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{git clone https://github.com/Rishabh96M/Power-\/Function-\/for-\/Large-\/Numbers.git}
+\end{DoxyCode}
+\hypertarget{md__r_e_a_d_m_e_autotoc_md585}{}\doxysection{Steps to build the project}\label{md__r_e_a_d_m_e_autotoc_md585}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{cd Power-\/Function-\/for-\/Large-\/Numbers/}
+\DoxyCodeLine{mkdir build}
+\DoxyCodeLine{cd build/}
+\DoxyCodeLine{cmake ..}
+\DoxyCodeLine{make}
+\end{DoxyCode}
+\hypertarget{md__r_e_a_d_m_e_autotoc_md586}{}\doxysection{Steps to run the example code}\label{md__r_e_a_d_m_e_autotoc_md586}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{./example}
+\end{DoxyCode}
+
+
+In this example, the program will ask the user for input and generate the power of that number with the reverse of the number. Ex\+: if the user inputs 123. The program will calculate 123$^\wedge$321.\hypertarget{md__r_e_a_d_m_e_autotoc_md587}{}\doxysection{To run the unit tests and gtest}\label{md__r_e_a_d_m_e_autotoc_md587}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{./test/power\_test}
+\end{DoxyCode}
+\hypertarget{md__r_e_a_d_m_e_autotoc_md588}{}\doxysection{Running cpplint \& cppcheck tests}\label{md__r_e_a_d_m_e_autotoc_md588}
+cpplint test checks if the project is following google style sheets. cppcheck test checks if the project has any static code errors.
+
+Run the following command in the src directory of the project to generate cpplint results. 
+\begin{DoxyCode}{0}
+\DoxyCodeLine{cd Power-\/Function-\/for-\/Large-\/Numbers/}
+\DoxyCodeLine{cpplint \$( find . -\/name \(\backslash\)*.h -\/or -\/name \(\backslash\)*.cpp | grep -\/vE -\/e "\string^./build/" -\/e "\string^./googletest/")}
+\end{DoxyCode}
+
+
+Run the following command in the src directory of the project to generate cppcheck results. 
+\begin{DoxyCode}{0}
+\DoxyCodeLine{cd Power-\/Function-\/for-\/Large-\/Numbers/}
+\DoxyCodeLine{cppcheck -\/-\/language=c++ -\/-\/std=c++11 -\/I include/ -\/-\/suppress=missingIncludeSystem  \$( find . -\/name \(\backslash\)*.h -\/or -\/name \(\backslash\)*.cpp | grep -\/vE -\/e "\string^./build/" -\/e "\string^./googletest/")}
+\end{DoxyCode}
+\hypertarget{md__r_e_a_d_m_e_autotoc_md589}{}\doxysection{Doxygen File}\label{md__r_e_a_d_m_e_autotoc_md589}
+\hypertarget{md__r_e_a_d_m_e_autotoc_md590}{}\doxysection{The index.\+html file in the Doxygen folder has all the class and method details.}\label{md__r_e_a_d_m_e_autotoc_md590}

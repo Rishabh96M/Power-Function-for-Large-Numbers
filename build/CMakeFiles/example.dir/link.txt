@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/example.dir/example.cpp.o CMakeFiles/example.dir/src/power.cpp.o  -o example 

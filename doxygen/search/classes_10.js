@@ -1,0 +1,26 @@
+var searchData=
+[
+  ['samesizetupleprefixcomparator_2066',['SameSizeTuplePrefixComparator',['../structstd_1_1tr1_1_1gtest__internal_1_1_same_size_tuple_prefix_comparator.html',1,'std::tr1::gtest_internal']]],
+  ['samesizetupleprefixcomparator_3c_200_2c_200_20_3e_2067',['SameSizeTuplePrefixComparator&lt; 0, 0 &gt;',['../structstd_1_1tr1_1_1gtest__internal_1_1_same_size_tuple_prefix_comparator_3_010_00_010_01_4.html',1,'std::tr1::gtest_internal']]],
+  ['samesizetupleprefixcomparator_3c_20k_2c_20k_20_3e_2068',['SameSizeTuplePrefixComparator&lt; k, k &gt;',['../structstd_1_1tr1_1_1gtest__internal_1_1_same_size_tuple_prefix_comparator_3_01k_00_01k_01_4.html',1,'std::tr1::gtest_internal']]],
+  ['scoped_5fptr_2069',['scoped_ptr',['../classtesting_1_1internal_1_1scoped__ptr.html',1,'testing::internal']]],
+  ['scoped_5fptr_3c_20_3a_3astd_3a_3astring_20_3e_2070',['scoped_ptr&lt; ::std::string &gt;',['../classtesting_1_1internal_1_1scoped__ptr.html',1,'testing::internal']]],
+  ['scoped_5fptr_3c_20_3a_3astd_3a_3astringstream_20_3e_2071',['scoped_ptr&lt; ::std::stringstream &gt;',['../classtesting_1_1internal_1_1scoped__ptr.html',1,'testing::internal']]],
+  ['scoped_5fptr_3c_20const_20_3a_3astd_3a_3astring_20_3e_2072',['scoped_ptr&lt; const ::std::string &gt;',['../classtesting_1_1internal_1_1scoped__ptr.html',1,'testing::internal']]],
+  ['scoped_5fptr_3c_20gtest_5fflag_5fsaver_5f_20_3e_2073',['scoped_ptr&lt; GTEST_FLAG_SAVER_ &gt;',['../classtesting_1_1internal_1_1scoped__ptr.html',1,'testing::internal']]],
+  ['scopedfaketestpartresultreporter_2074',['ScopedFakeTestPartResultReporter',['../classtesting_1_1_scoped_fake_test_part_result_reporter.html',1,'testing']]],
+  ['scopedprematureexitfile_2075',['ScopedPrematureExitFile',['../classtesting_1_1internal_1_1_scoped_premature_exit_file.html',1,'testing::internal']]],
+  ['scopedtrace_2076',['ScopedTrace',['../classtesting_1_1internal_1_1_scoped_trace.html',1,'testing::internal']]],
+  ['sequencetestinglistener_2077',['SequenceTestingListener',['../class_sequence_testing_listener.html',1,'']]],
+  ['setuptestcasetest_2078',['SetUpTestCaseTest',['../classtesting_1_1_set_up_test_case_test.html',1,'testing']]],
+  ['singlefailurechecker_2079',['SingleFailureChecker',['../classtesting_1_1internal_1_1_single_failure_checker.html',1,'testing::internal']]],
+  ['staticasserttypeeqhelper_2080',['StaticAssertTypeEqHelper',['../structtesting_1_1internal_1_1_static_assert_type_eq_helper.html',1,'testing::internal']]],
+  ['staticasserttypeeqhelper_3c_20t_2c_20t_20_3e_2081',['StaticAssertTypeEqHelper&lt; T, T &gt;',['../structtesting_1_1internal_1_1_static_assert_type_eq_helper_3_01_t_00_01_t_01_4.html',1,'testing::internal']]],
+  ['staticasserttypeeqtesthelper_2082',['StaticAssertTypeEqTestHelper',['../class_static_assert_type_eq_test_helper.html',1,'']]],
+  ['streamableinglobal_2083',['StreamableInGlobal',['../class_streamable_in_global.html',1,'']]],
+  ['streamabletemplateinfoo_2084',['StreamableTemplateInFoo',['../classfoo_1_1_streamable_template_in_foo.html',1,'foo']]],
+  ['string_2085',['String',['../classtesting_1_1internal_1_1_string.html',1,'testing::internal']]],
+  ['subprocess_2086',['Subprocess',['../classgtest__test__utils_1_1_subprocess.html',1,'gtest_test_utils']]],
+  ['subversionvcs_2087',['SubversionVCS',['../classupload_1_1_subversion_v_c_s.html',1,'upload']]],
+  ['successfultest_2088',['SuccessfulTest',['../class_successful_test.html',1,'']]]
+];
