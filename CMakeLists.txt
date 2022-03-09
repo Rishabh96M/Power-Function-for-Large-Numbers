@@ -11,4 +11,4 @@ add_executable(example
 )
 
 add_subdirectory(test)
-add_subdirectory(googletest)
+add_subdirectory(include/googletest)
