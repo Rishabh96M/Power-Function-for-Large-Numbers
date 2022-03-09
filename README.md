@@ -49,6 +49,6 @@ cd Power-Function-for-Large-Numbers/
 cppcheck --language=c++ --std=c++11 -I include/ --suppress=missingIncludeSystem  $( find . -name \*.h -or -name \*.cpp | grep -vE -e "^./build/" -e "^./googletest/")
 ```
 
-##Doxygen File
+## Doxygen File
 The index.html file in the Doxygen folder has all the class and method details.
 =======
