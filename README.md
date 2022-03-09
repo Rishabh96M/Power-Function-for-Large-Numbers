@@ -51,4 +51,5 @@ cppcheck --language=c++ --std=c++11 -I include/ --suppress=missingIncludeSystem 
 
 ## Doxygen File
 The index.html file in the Doxygen folder has all the class and method details.
+
 =======
