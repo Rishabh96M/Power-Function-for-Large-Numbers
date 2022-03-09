@@ -30,7 +30,7 @@ Ex: if the user inputs 123. The program will calculate 123^321.
 
 ## To run the unit tests and gtest
 ```
-./test/power_test
+./test/power-test
 ```
 
 ## Running cpplint & cppcheck tests
@@ -40,11 +40,11 @@ cppcheck test checks if the project has any static code errors.
 Run the following command in the src directory of the project to generate cpplint results.
 ```
 cd Power-Function-for-Large-Numbers/
-cpplint $( find . -name \*.h -or -name \*.cpp | grep -vE -e "^./build/" -e "^./googletest/")
+cpplint $( find . -name \*.h -or -name \*.cpp | grep -vE -e "^./build/" -e "^./include/googletest/")
 ```
 
 Run the following command in the src directory of the project to generate cppcheck results.
 ```
 cd Power-Function-for-Large-Numbers/
-cppcheck --language=c++ --std=c++11 -I include/ --suppress=missingIncludeSystem  $( find . -name \*.h -or -name \*.cpp | grep -vE -e "^./build/" -e "^./googletest/")
+cppcheck --language=c++ --std=c++11 -I include/ --suppress=missingIncludeSystem  $( find . -name \*.h -or -name \*.cpp | grep -vE -e "^./build/" -e "^./include/googletest/")
 ```
