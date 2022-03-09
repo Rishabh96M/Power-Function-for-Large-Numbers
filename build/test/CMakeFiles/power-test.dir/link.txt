@@ -1,1 +1,0 @@
-/usr/bin/c++    -rdynamic CMakeFiles/power-test.dir/main.cpp.o CMakeFiles/power-test.dir/__/src/power.cpp.o CMakeFiles/power-test.dir/test_power.cpp.o  -o power-test  ../googletest/libgtest.a -lpthread 
